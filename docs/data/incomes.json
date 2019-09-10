@@ -1,0 +1,44 @@
+{
+  "q5": {
+    "id": 5,
+    "name": "> $110,000",
+    "type": "general",
+    "min": 110200,
+    "max": 14760800
+  },
+  "q4": {
+    "id": 4,
+    "name": "$65,000 – $110,000",
+    "type": "general",
+    "min": 65300,
+    "max": 110200
+  },
+  "q3": {
+    "id": 3,
+    "name": "$37,000 – $65,000",
+    "type": "general",
+    "min": 37300,
+    "max": 65300
+  },
+  "q2": {
+    "id": 2,
+    "name": "$20,000 – $37,000",
+    "type": "general",
+    "min": 19800,
+    "max": 37300
+  },
+  "q1": {
+    "id": 1,
+    "name": "< $20,000",
+    "type": "general",
+    "min": 0,
+    "max": 19800
+  },
+ "overall": {
+    "id": 0,
+    "name": "All Incomes",
+    "type": "general",
+    "min": 0,
+    "max": 14760800
+  }
+}

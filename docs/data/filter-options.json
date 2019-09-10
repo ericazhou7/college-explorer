@@ -1,0 +1,29 @@
+{
+  "region": {
+    "id": "region",
+    "name": "Region",
+    "type": "general",
+    "options": [
+      {
+        "id": "region-n",
+        "name": "Northeast",
+        "value": "1"
+      },
+      {
+        "id": "region-m",
+        "name": "Midwest",
+        "value": "2"
+      },
+      {
+        "id": "region-s",
+        "name": "South",
+        "value": "3"
+      },
+      {
+        "id": "region-w",
+        "name": "West",
+        "value": "4"
+      }
+    ]
+  }
+}

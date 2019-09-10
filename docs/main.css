@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+h1 {
+  color: black;
+}
+
+path:hover {
+  cursor: pointer;
+}
+
+body {
+  font: 15px sans-serif;
+  font-family: 'Lato', sans-serif;
+  color: #222222;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+}
+
+.header h1 {
+  float: left;
+}
+
+.header h2 {
+  float: right;
+}
+
+#features {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  min-width: 190px;
+}
+
+.filter-button {
+  /* border: 5px solid #222222; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 5px;
+  /* color: white; */
+}
+
+.filter-button:hover {
+  cursor: pointer;
+}
+
+.filter-button.active {
+  /* border: 5px solid #ffdf00; */
+  box-shadow: 0 4px 8px 0 rgba(255, 223, 0, 0.8), 0 6px 20px 0 rgba(255, 223, 0, 0.9);
+}
+
+#filter-space {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #EEE;
+  padding: 10px;
+
+  svg {
+    margin: 0 auto;
+  }
+}
+
+.filter-option {
+  /* border: 1px solid #222222; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.filter-option:hover {
+  cursor: pointer;
+}
+
+.filter-option.active {
+  background-color: rgba(0,180,255,1);
+  color: white;
+}
+
+#weight-sliders {
+  padding: 20px;
+}
+
+#results-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#search-bar {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+#search-input {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+#results {
+  max-width: 500px;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.college-entry {
+  padding: 15px;
+  border-top: 1px solid #222;
+  overflow: hidden;
+}
+
+.college-entry img {
+  height: 30px;
+  float: left;
+  margin-right: 15px;
+}
+
+.college-entry:hover {
+  cursor: pointer;
+  background-color: #EEE;
+}
+
+.icon {
+  float: right;
+}
+
+#dropdown, #dropdown-menu {
+  width: 200px;
+}
+
+#dropdown-button {
+  border: 1px solid #222;
+  padding: 15px;
+}
+
+#dropdown-button:hover {
+  cursor: pointer;
+}
+
+#dropdown:hover #dropdown-menu {
+  display: block;
+  cursor: pointer;
+}
+
+#dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #EEE;
+  z-index: 1;
+}
+
+.dropdown-menu-entry {
+  padding: 15px;
+  border: 1px solid #222;
+}
+
+.dropdown-menu-entry:hover {
+  background-color: #ffdf00;
+}
+
+.college-descr {
+  float: left;
+}
+
+.college-title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.college-subtitle {
+  font-size: 12px;
+  color: #666666;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.college-subtitle span {
+  margin-right: 20px;
+}
+
+.website:hover {
+  cursor: pointer;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    padding: 10px 5px;
+    font: 12px sans-serif;
+    background: blue;
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#school-details {
+  padding: 30px 0 80px;
+  overflow: hidden;
+}
+
+#school-details tr {
+  padding: 20px;
+}
+
+#school-details th {
+  text-align: right;
+  padding-right: 10px;
+}
+
+#school-details img {
+  height: 300px;
+}
+
+#details-table, .chart {
+  float: left;
+  padding: 0px 40px 20px;
+}
+
+.chart h3 {
+  text-align: center;
+}
+
+.selected-entry {
+  background-color: rgba(255, 223, 0, 0.8);
+}
+
+.selected-circle {
+  z-index: 5;
+}
+
+#pie-chart {
+  width: 100%;
+  height: 450px;
+}
+
+.website {
+  text-decoration: underline;
+  color: blue;
+}
+
+.website:hover {
+  opacity: 0.5;
+}
+
+video {
+  max-width: 1280;
+  width: 100%;
+}
+
+.about-img {
+  width: 100%;
+}
